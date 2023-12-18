@@ -1,0 +1,40 @@
+.category-banner {
+    display: block;
+    margin: 1.5rem auto;
+    width: 81%;
+}
+.indexSort {
+    display: flex;
+    margin: 0 9%;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-sort {
+    padding: .5rem .8rem;
+    border-radius: 1.5rem;
+    border: 1px solid #888;
+}
+.indexSort p span {
+    font-weight: 600;
+
+}
+.category-products {
+    margin: 1rem 9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2.5rem;
+
+}
+.category-load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto;
+    width: 14rem;
+    height: 4rem;
+    color: #787878;
+    background: #ededed;
+    border-radius: 999px;
+    font-size: large;
+    font-weight: 500;
+}
